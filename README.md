@@ -7,6 +7,7 @@ PQColorSlider
 - 下载代码拖入到功能
 
 <br>
+
 #### 1、`carthage`
 
 ```
