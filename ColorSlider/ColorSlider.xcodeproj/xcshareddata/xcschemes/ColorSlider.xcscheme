@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6045CB962130ECDC00855820"
-               BuildableName = "PQColorSlider.framework"
-               BlueprintName = "PQColorSlider"
-               ReferencedContainer = "container:SliderDemo.xcodeproj">
+               BlueprintIdentifier = "6045CBD72130F20600855820"
+               BuildableName = "ColorSlider.framework"
+               BlueprintName = "ColorSlider"
+               ReferencedContainer = "container:ColorSlider.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6004EE19212AAE5500E1738B"
-            BuildableName = "SliderDemo.app"
-            BlueprintName = "SliderDemo"
-            ReferencedContainer = "container:SliderDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6004EE19212AAE5500E1738B"
-            BuildableName = "SliderDemo.app"
-            BlueprintName = "SliderDemo"
-            ReferencedContainer = "container:SliderDemo.xcodeproj">
+            BlueprintIdentifier = "6045CBD72130F20600855820"
+            BuildableName = "ColorSlider.framework"
+            BlueprintName = "ColorSlider"
+            ReferencedContainer = "container:ColorSlider.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -73,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6045CB962130ECDC00855820"
-            BuildableName = "PQColorSlider.framework"
-            BlueprintName = "PQColorSlider"
-            ReferencedContainer = "container:SliderDemo.xcodeproj">
+            BlueprintIdentifier = "6045CBD72130F20600855820"
+            BuildableName = "ColorSlider.framework"
+            BlueprintName = "ColorSlider"
+            ReferencedContainer = "container:ColorSlider.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
