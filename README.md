@@ -1,6 +1,9 @@
 # PQColorSlider
 PQColorSlider
 
+### 先奉上效果图
+![colorSlider](https://upload-images.jianshu.io/upload_images/1940927-e89e74d828fa50a3.gif?imageMogr2/auto-orient/strip)
+
 
 ### 使用方式:
 - `carthage`
