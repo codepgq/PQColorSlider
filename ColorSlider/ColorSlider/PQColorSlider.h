@@ -54,6 +54,7 @@
 @property (nonatomic, strong) void(^valueChangeBlock)(CGFloat progress);
 
 
+
 /**
  reload UI
  重新设置UI
