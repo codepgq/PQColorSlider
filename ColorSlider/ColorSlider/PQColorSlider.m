@@ -94,7 +94,7 @@
         if (_timeSpan == 0) {
             self.valueChangeBlock(self.value);
         } else if (CFAbsoluteTimeGetCurrent() - self.lastTime > _timeSpan) {
-            _lastTime = CFAbsoluteTimeGetCurrent()
+            _lastTime = CFAbsoluteTimeGetCurrent();
             self.valueChangeBlock(self.value);
         }
     }
