@@ -83,12 +83,24 @@
 
 @interface PQColorSlider()
 @property (nonatomic, strong) UIImageView * imgView;
+@property (nonatomic, assign) NSTimeInterval lastTime;
 @end
 
 @implementation PQColorSlider
 
 #pragma mark - publid property
 - (void)valueChange{
+    if (self.valueChangeBlock) {
+        if (_timeSpan == 0) {
+            self.valueChangeBlock(self.value);
+        } else if (CFAbsoluteTimeGetCurrent() - self.lastTime > _timeSpan) {
+            _lastTime = CFAbsoluteTimeGetCurrent()
+            self.valueChangeBlock(self.value);
+        }
+    }
+}
+    
+- (void)endMove{
     if (self.valueChangeBlock) {
         self.valueChangeBlock(self.value);
     }
@@ -149,6 +161,10 @@
     self.maximumTrackTintColor = [UIColor clearColor];
     
     [self addTarget:self action:@selector(valueChange) forControlEvents:UIControlEventValueChanged];
+    
+    [self addTarget:self action:@selector(endMove) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self addTarget:self action:@selector(endMove) forControlEvents:UIControlEventTouchUpOutside];
 }
 
 

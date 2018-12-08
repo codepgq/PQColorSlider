@@ -48,6 +48,12 @@
 @property (nonatomic, assign) CGFloat colorHeight;
 
 /**
+ timespan default 0
+ progress 回调的间隔时间 默认 0
+ */
+@property (nonatomic,assign) float timeSpan;
+    
+/**
  on move slider
  移动的时候
  */
